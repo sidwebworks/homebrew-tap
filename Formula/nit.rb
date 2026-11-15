@@ -1,28 +1,28 @@
 class Nit < Formula
   desc "Keyboard-first local code review, with Claude as a second reader"
   homepage "https://sidwebworks.com/things/nit"
-  version "0.1.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sidwebworks/nit/releases/download/v0.1.0/nit-darwin-arm64.tar.gz"
-      sha256 "af63d6b9db4d0487f956328b56aa6df52f577f892212fa165371ae47094e0c16"
+      url "https://github.com/sidwebworks/nit/releases/download/v1.1.0/nit-darwin-arm64.tar.gz"
+      sha256 "05dc6d066dacbcbee25b13fdb9b8a649337ad66a9e0a7519ca42d5e61b0824a3"
     end
     on_intel do
-      url "https://github.com/sidwebworks/nit/releases/download/v0.1.0/nit-darwin-x64.tar.gz"
-      sha256 "bc4a5c83951b92ccd6bb219d8426fb631b636936357b9abd262f8ba8e9aabd53"
+      url "https://github.com/sidwebworks/nit/releases/download/v1.1.0/nit-darwin-x64.tar.gz"
+      sha256 "bb98f004c02cab0c67a77853e6f1e49849516f8689d4cf0df8bcb7d9d50c62cd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sidwebworks/nit/releases/download/v0.1.0/nit-linux-arm64.tar.gz"
-      sha256 "3b75157dba630df77493911e48fa376d4cdcc34319e73e436c1f52e2a3dcda33"
+      url "https://github.com/sidwebworks/nit/releases/download/v1.1.0/nit-linux-arm64.tar.gz"
+      sha256 "4773991af1ab9258c8ad70b8c72319fe5f3992820dfc2af6d90f41a846408ac1"
     end
     on_intel do
-      url "https://github.com/sidwebworks/nit/releases/download/v0.1.0/nit-linux-x64.tar.gz"
-      sha256 "ccee8039fa39a38c2eca50498685521d7ef309a1428d2eb30056672f3674df49"
+      url "https://github.com/sidwebworks/nit/releases/download/v1.1.0/nit-linux-x64.tar.gz"
+      sha256 "7414c7b1f74b4d72e45b0c1496a0c8889d42c308f709a2a5c9f757acf17ffeea"
     end
   end
 
